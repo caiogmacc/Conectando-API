@@ -1,1 +1,3 @@
 # Conectando-API
+## Caio Gonçalves Machado, 2º Info
+Este é meu trabalho mensal do segundo bimestre de PW, primeira vez conectando uma API com JS... 
