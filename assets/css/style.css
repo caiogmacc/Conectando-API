@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#geradorAleatorio{
+    width: 150px;
+    height: 50px;
+    border-radius: 16px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 200;
+    background: rgb(199, 188, 188);
+    cursor: pointer;
+}
+
+#geradorAleatorio:hover{
+    width: 150px;
+    height: 50px;
+    border-radius: 16px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 200;
+    background: rgb(62, 177, 158);
+    cursor: pointer;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(-45deg, #4158D0, #e560dc, #e4924f, #ec7d7d, #dd5ec2);
+    background-size: 400% 400%;
+    animation: bg 10s ease infinite;
+}
+
+@keyframes bg{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+.emoji{
+    font-size: 8rem;
+}
+
+main{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10%;
+    width: 100%;
+}
+
+.conteudo{
+    width: 300px;
+    height: 400px;
+    background: rgb(182, 156, 156);
+    background-color: #e6e6e6;
+    padding: 16px 20px 10px;
+    width: 31%;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 12%;
+}
+
+#geradorAleatorio{
+    margin-left: 31%;
+    margin-top: 8%;
+}
+
+#emojisContainer{
+    margin-top: -10%;
+    margin-right: 2%;
+}
